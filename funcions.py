@@ -1,6 +1,10 @@
-numero = 5
-factorial = 1
-while numero > 0:
-    factorial = factorial * numero
-    numero -=1
-    print(factorial)
+def factorial_numero(numero):
+    factorial = 1
+    while numero > 0:
+        factorial = factorial * numero
+        numero -=1
+    return factorial
+
+
+resultado = factorial_numero(5)
+print(resultado)
